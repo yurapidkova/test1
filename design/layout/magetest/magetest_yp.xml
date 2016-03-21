@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<layout>
+
+    <cms_index_index>
+        <reference name="content">
+            <block type="magetest_yp/random" name="simple_faq_random"
+                   template="magetest/random.phtml"/>
+        </reference>
+    </cms_index_index>
+
+    <magetest_yp_index_index>
+        <reference name="content">
+            <block type="magetest_yp/list" name="simple_faq_list"
+                   template="magetest/list.phtml"/>
+        </reference>
+    </magetest_yp_index_index>
+
+    <magetest_yp_index_new>
+        <reference name="content">
+            <block type="magetest_yp/new" name="simple_faq_new"
+                   template="magetest/new.phtml"/>
+        </reference>
+    </magetest_yp_index_new>
+
+</layout>

@@ -1,0 +1,4 @@
+code                   			 app/code/local/Magetest/Yp/
+design/layout/*                  app/design/frontend/base/default/layout/
+design/template/*                app/design/frontend/base/default/template/
+modules/*				         app/etc/modules/

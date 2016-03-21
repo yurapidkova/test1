@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<widgets>
+    <magetest_yp type="magetest_yp/widget" translate="name description" module="magetest_yp">
+        <name>Simple FAQ</name>
+        <description>Allows To Add Simple Faq List</description>
+        <parameters>
+            <list>
+                <label>Questions List</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+            </list>
+        </parameters>
+    </magetest_yp>
+</widgets>

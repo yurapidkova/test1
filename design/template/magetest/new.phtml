@@ -1,0 +1,6 @@
+<h1>Ask Me</h1>
+<form action="<?php echo $this->getSaveUrl(); ?>" method="post">
+    <label for="question" class="label"><?php echo $this->__("Question");?></label>
+    <input type="text" name="question" class="input-text" placeholder="<?php echo $this->__("Question Content");?>" />
+    <button class="button" type="submit"><?php echo $this->__("Save");?></button>
+</form>

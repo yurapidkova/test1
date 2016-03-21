@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magetest_Yp>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Magetest_Yp>
+    </modules>
+</config>

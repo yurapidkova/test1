@@ -1,0 +1,17 @@
+<?php
+$item = $this->getRandomQuestion();
+?>
+<?php if($item): ?>
+<h4>Simple FAQ Question</h4>
+<div id="simple-faq-container">
+    <div id="simple-faq-list-container">
+        <p><?php echo $this->__('QUESTION'); ?></p>
+        <span><?php echo $item->getQuestion(); ?></span>
+        <p><?php echo $this->__('ANSWER'); ?></p>
+        <span><?php echo $item->getAnswer(); ?></span>
+    </div>
+    <div id="simple-faq-question-container">
+        <a id="simple-faq-question" href="<?php echo $this->getQuestionUrl(); ?>">Ask Me</a>
+    </div>
+</div>
+<?php endif; ?>

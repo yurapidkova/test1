@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <magetest_yp>
+            <title>Simple FAQ</title>
+            <sort_order>10</sort_order>
+            <action>adminhtml/simplefaq/</action>
+        </magetest_yp>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <magetest_yp>
+                        <title>Simple FAQ</title>
+                    </magetest_yp>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

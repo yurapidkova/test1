@@ -1,0 +1,21 @@
+<?php $iterator = 1 ?>
+<h1>FAQ LIST</h1>
+
+<div id="simple-faq-container">
+    <div id="simple-faq-list-container">
+        <ul id="simple-faq-list" class="ul">
+            <?php foreach ($this->getCollection() as $item): ?>
+                <li class="simple-faq-container">
+                    <span><?php echo $iterator++ ?></span>
+                    <p><?php echo $this->__('QUESTION'); ?></p>
+                    <span class="simple-faq-question outer-span"><?php echo $item->getQuestion(); ?></span>
+                    <p><?php echo $this->__('ANSWER'); ?></p>
+                    <span class="simple-faq-answer product-name"><?php echo $item->getAnswer(); ?></span>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+    <div id="simple-faq-question-container">
+        <a id="simple-faq-question" href="<?php echo $this->getQuestionUrl(); ?>">Ask Me</a>
+    </div>
+</div>
